@@ -1,0 +1,54 @@
+<html>
+<head>
+<style>
+p {color:purple;}
+
+.field{
+	width:200px;
+}
+.ghor{
+	width:60px;
+	height:60px;
+	border:3 px solid purple;
+	float:left;
+	font-size:50px;
+}
+</style>
+</head>
+<body>
+<p>JavaScript</p>
+
+<div class ="field">
+
+<div class ="ghor"></div>
+<div class ="ghor"></div>
+<div class ="ghor"></div>
+
+<div class ="ghor"></div>
+<div class ="ghor"></div>
+<div class ="ghor"></div>
+
+<div class ="ghor"></div>
+<div class ="ghor"></div>
+<div class ="ghor"></div>
+
+
+</div>
+	
+<script src=""></script>
+
+<script>
+var count=0;
+$("p").text("jquery");
+&(".ghor").click(function(){
+count =count+1;
+if(count%2==1){
+	$(this).text("O"); 	
+}
+else{
+	 $(this).text("X");
+}
+
+</script>
+</body>
+</html>
